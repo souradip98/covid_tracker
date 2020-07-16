@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    justify-content: center;
+    width: 370px;
+    margin-top: 30px;
+    align-self: center;
+    margin-bottom: 30px;
+    padding-left: 8%;
+}
+
+@media (max-width:770px){
+    .container{
+        justify-content: center;
+        padding-left: 7%;
+    }
+    .image{
+        width: 80%;
+    }
+}
